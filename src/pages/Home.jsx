@@ -12,12 +12,8 @@ const Home = () => {
   };
 
   useEffect(() => {
-    console.log("home mounted");
     getProduct();
-    return () => {
-      console.log("home unmounted");
-    };
-  });
+  },[]);
 
   return (
     <div>
