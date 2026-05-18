@@ -7,7 +7,7 @@ const RecipeContext = (props) => {
   const [data, setdata] = useState([
     {
       id: 1,
-      name: "Classic Margherita Pizza",
+      title: "Classic Margherita Pizza",
       ingredients: [
         "Pizza dough",
         "Tomato sauce",
@@ -27,7 +27,7 @@ const RecipeContext = (props) => {
 
       image: "https://cdn.dummyjson.com/recipe-images/1.webp",
       chef: "Pankaj pelu",
-      category: "Dinner",
+      category: "dinner",
       desc: "Roll out the pizza dough and spread tomato sauce evenly. Bake in the preheated oven for 12-15 minutes or until the crust is golden brown.Bake in the preheated oven for 12-15 minutes or until the crust is golden brown.",
     },
   ]);
