@@ -26,7 +26,7 @@ const RecipeContext = (props) => {
       ],
 
       image: "https://cdn.dummyjson.com/recipe-images/1.webp",
-      chef: "Pankaj pelu",
+      chef: "Pankaj pagal",
       category: "dinner",
       desc: "Roll out the pizza dough and spread tomato sauce evenly. Bake in the preheated oven for 12-15 minutes or until the crust is golden brown.Bake in the preheated oven for 12-15 minutes or until the crust is golden brown.",
     },
